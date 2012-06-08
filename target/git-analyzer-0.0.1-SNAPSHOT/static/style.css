@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #F5F5F5;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+#page {
+	width: 70%;
+	margin: 50px auto;
+	padding: 50px;
+	background: #FFF;
+	border: 1px solid #AAA;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.column {
+	width: 33%;
+	margin-bottom: 20px;
+}
+
+/**
+ * Commons
+ */
+a {
+	text-decoration: none;
+	color: #4F81BD;
+}
+a:hover {
+	color: #4EAED4;
+}
+
+h1 {
+	color: #4F81BD;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #DDD;
+}
+
+h3 {
+	color: #4F81BD;
+	padding: 20px;
+}
+
+/**
+ * Charts
+ */
+.chart {
+	width: 100%;
+	height: 400px;
+}
+
+/**
+ * Tables
+ */
+table {
+	width: 100%;
+	border-width: 1px 1px 0 0;
+	border-style: solid;
+	border-color: #ddd;
+	border-spacing: 0;
+}
+
+table th, table td {
+	border-width: 0 0 1px 1px;
+	border-style: solid;
+	border-color: #ddd;
+	font-size: 11px;
+	padding: 5px;
+}
+
+table thead {
+	text-align: center;
+	line-height: 20px;
+	background: #f5f5f5;
+}
+
+table tbody tr.even {
+	background-color: #fafafa;
+}
+table tbody tr:hover {
+	background-color: #f3fbfd;
+}
+
+table#users .user-authored, table .user-committed {
+	width: 150px;
+	text-align: center;
+}
+
+/**
+ * Pagination
+ */
+.pager {
+	text-align: center;
+	font-size: 11px;
+	margin: 20px;
+}
+.pager .page-number {
+	padding: 0 5px;
+	cursor: pointer;
+}
+.pager .page-number.active {
+	color: #4F81BD;
+}
